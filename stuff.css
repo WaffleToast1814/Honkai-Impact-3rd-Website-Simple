@@ -1,0 +1,56 @@
+@media only screen and (max-width: 600px){
+    .Text-1-Heading .title{
+      width: 300px;
+    }
+  
+    .Character-List{
+      display:grid;
+      grid-template-columns: 1fr;
+    }
+  
+  .links{
+    width: 100%;
+  }
+  
+  .synopsis-text-1{
+    width: 100%;
+  }
+  
+  .container{
+    width: 100%;
+  }
+  
+  .character-text{
+    width: 100%;
+  }
+  
+  .Home-Text-P{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .synopsis-text-2{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .synopsis-text-3{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  }
+  
+  @media only screen and (min-width: 1200px){
+  .Character-List{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 50px 50px 50px 50px;
+    justify-content: center;
+  }
+  
+  }
